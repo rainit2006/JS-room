@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+      {
+        "name": "Debug helloWorld-main.js",
+        "type": "node",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        "runtimeExecutable": "C:/Users/svf14n29/AppData/Roaming/npm/electron.cmd",
+        "args" : ["."],
+        "protocol": "inspector",
+        "runtimeArgs": [
+          "${workspaceRoot}/main.js",
+          "--remote-debugging-port=9222"
+        ]
+      }
+    ]
+  }
