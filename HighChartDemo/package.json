@@ -1,0 +1,28 @@
+{
+  "name": "HighChartsDemo",
+  "version": "1.0.0",
+  "description": "A HighCharts Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.11"
+  },
+  "dependencies": {
+    "highcharts": "^6.0.4",
+    "highcharts-3d": "^0.1.7",
+    "highcharts-exporting": "^0.1.7",
+    "jquery": "^3.3.1"
+  }
+}
